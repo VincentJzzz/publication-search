@@ -22,7 +22,6 @@ This project is a web application helps people find medical publication from the
 - Python 3.8 or above
 - Node.js 14 or above
 # Dependencies:
-## Packages:
 Python:
 
 `flask`, `flask-cors`
