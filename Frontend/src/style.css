@@ -1,0 +1,8 @@
+#app {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: #f9f9f9;
+}
