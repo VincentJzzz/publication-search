@@ -17,6 +17,7 @@ This project is a web application helps people find medical publication from the
     - `App.vue`: Main application file, generates the main page.
     - `/api`: Contains TypeScript scripts that process the backend API.
     - `/components`: Contains all the Vue components used in the application.
+    - `/types` Contains file define the data type.
 
 # Environment Requirements
 - Python 3.8 or above
