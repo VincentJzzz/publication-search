@@ -49,6 +49,8 @@ This will install all required dependecies.
 4. Open a browser, paste the URL, then it will shows the web page.
 5. To terminate program, at frontend terminal insert `q` and execute it, then at backend terminal click `ctrl` + `c` to terminate program.
 
-Caution:
+Caution: Make sure your `localhost:5000` port is avaliable.
 
-Make sure your localhost:5000 port is avaliable.
+# Test:
+The program has been thoroughly tested.
+
