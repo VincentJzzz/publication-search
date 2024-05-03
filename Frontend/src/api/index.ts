@@ -1,7 +1,7 @@
 import axios from "axios"
 import { IArticleDetail, ISearchParams, ISearchResult } from "../types";
 
-axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL;
+axios.defaults.baseURL = "http://127.0.0.1:5000"
 
 const config = {
     headers: {
