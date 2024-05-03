@@ -6,6 +6,21 @@ Author: Vincent Jim Zhang
 Contact: zhang.vi@northeastern.edu
 # Description:
 This project is a web application helps people find medical publication from the National Library of Medicine database. The backend part is made with Python and Flask, which handle the server tasks. The frontend part is made with Vue.js and is made to well design with Ant Design.
+
+# Project Structure
+- `/Backend`: Contains all the backend code, including the Flask application.
+  - `app.py`: The main Flask application file.
+  - `method.py`: Includes functions for fetching data.
+
+- `/Frontend`: Contains all the frontend Vue.js code.
+  - `/src`: Source files for the Vue application.
+    - `App.vue`: Main application file, generates the main page.
+    - `/api`: Contains TypeScript scripts that process the backend API.
+    - `/components`: Contains all the Vue components used in the application.
+
+# Environment Requirements
+- Python 3.8 or above
+- Node.js 14 or above
 # Dependencies:
 ## Packages:
 Python:
