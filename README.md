@@ -5,7 +5,7 @@ Author: Vincent Jim Zhang
 
 Contact: zhang.vi@northeastern.edu
 # Description:
-This project is a web application helps people find medical publication from the National Library of Medicine database. The backend part is made with Python and Flask, which handle the server tasks. The frontend part is made with Vue.js and is made to well design with Ant Design.
+This project is a web application that helps users find medical publications from the National Library of Medicine database. The backend is developed using Python and Flask, which handle the server tasks. The frontend is implemented with Vue.js and uses Ant Design to optimize the user interface for a better user experience.
 
 # Project Structure
 - `/Backend`: Contains all the backend code, including the Flask application.
@@ -19,38 +19,38 @@ This project is a web application helps people find medical publication from the
     - `/components`: Contains all the Vue components used in the application.
     - `/types` Contains file define the data type.
 
-# Environment Requirements
+# Environment Requirements and dependencies:
 - Python 3.8 or above
 - Node.js 14 or above
-# Dependencies:
-Python:
-
-`flask`, `flask-cors`
-
-Vue:
-
-`vue`, `vite`, `axios`, `ant-design-vue`
+## Packege use:
+  - Python:
+  
+    `flask`, `flask-cors`
+  
+  - Vue:
+  
+    `vue`, `vite`, `axios`, `ant-design-vue`
 
 ## Install:
-python:
+- python:
 
-Open terminal, insert command: `pip install flask flask-cors` and execute it
+  Open terminal, insert command: `pip install flask flask-cors` and execute it
 
-vue:
+- vue:
 
-In `Frontend` directory, open terminal, insert command: `npm install` and execute it.
+  In `Frontend` directory, open terminal, insert command: `npm install` and execute it.
 
-This will install all required dependecies.
+  This will install all required dependecies.
 
-# How to use:
-1. Prepare server end, open terminal at `Backend` directory, execute `python3 app.py`, do not close the terminal, let server run.
-2. Open frontend applcation, open another terminal at `Frontend` directory, execute `npm run dev`.
-3. An URL will display on frontend terminal, follow by `Local:` copy it.
-4. Open a browser, paste the URL, then it will shows the web page.
-5. To terminate program, at frontend terminal insert `q` and execute it, then at backend terminal click `ctrl` + `c` to terminate program.
+# How to Use:
+1. Prepare the server side: Open a terminal in the `Backend` directory and execute `python3 app.py`. Keep the terminal open.
+2. Open the frontend application: Open another terminal in the `Frontend` directory and execute `npm run dev`.
+3. A URL will be displayed in the frontend terminal, prefixed by `Local:`. Copy this URL.
+4. Open a browser and paste the URL to view the web page.
+5. To terminate the program, type `q` in the frontend terminal and execute it, then press `Ctrl` + `C` in the backend terminal to stop the server.
 
-Caution: Make sure your `localhost:5000` port is avaliable.
+## Caution:
+Ensure that your `localhost:5000` port is available.
 
-# Test:
+## Test:
 The program has been thoroughly tested.
-
